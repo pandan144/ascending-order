@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D</title>
+</head>
+<body>
+
+    <script>
+        
+        let a=prompt("Enter Value a");
+	    let b=prompt("Enter Value b");
+	    let c=prompt("Enter Value c");
+	
+        if(a>b && a>c){
+            if(b>c){
+                console.log(c,b,a);
+            }
+            else{
+                console.log(b,c,a);
+            }
+        }
+        else if(b>a && b>c){
+            if(c>a){
+                console.log(a,c,b);
+            }
+            else{
+                console.log(c,a,b);
+            }
+        }
+        else if(c>a && c>b){
+            if(a>b){
+                console.log(b,a,c);
+            }
+            else{
+                console.log(a,b,c);
+            }
+        }
+    </script>
+    
+</body>
+</html>
